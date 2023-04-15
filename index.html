@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="" srcset="">
@@ -22,13 +22,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#Backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscibe</a>
+                    <a class="nav-link" href="#Subscribe">Subscribe</a>
                   </li>
                   
                  
@@ -134,7 +134,7 @@
         </section>
 
         <section>
-          <div class="container mt-5">
+          <div class="container mt-5 " id="shoes">
             <h1>Shoes</h1>
 
             <div class="card-group ">
@@ -181,7 +181,7 @@
           </div>
         </section>
         <section>
-          <div class="container mt-5">
+          <div class="container mt-5" id="Backpack">
           <h1>Backpack</h1>
           
             <div class="card-group">
@@ -226,6 +226,24 @@
               </div>
             </div>
 
+          </div>
+        </section>
+        <section>
+          <div style="height: 320px;" class="container mt-5  bg-info rounded-3 d-flex justify-content-center align-items-center" id="Subscribe">
+            <div>
+            <h2>LET'S STAY IN TOUCH</h2>
+            <p>Get updates on sales, specials and more</p>
+            <form>
+              <div class="mt-5 text-align-center">
+                
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              
+              
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            </div>
           </div>
         </section>
     </main>
